@@ -1,0 +1,15 @@
+#navbar{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: #333;
+	color: white;
+	text-align: center;
+
+}
+
+
+#listeGame{
+	background-color: red;
+}
+

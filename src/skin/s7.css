@@ -1,0 +1,131 @@
+#navbar{
+	height: 50px;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: #333;
+	color: white;
+	text-align: center;
+	border-radius: 15px;
+	border: 5px solid white;
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+    padding-top: 15px;
+    border-radius: 15px;
+}
+a:hover{
+	background-color: tomato;
+	color: black;
+}
+
+#listeGame{
+	width: 99%;
+}
+
+body{
+	background-color: #333;
+}
+
+.ligne{
+  background-color: tomato;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h1{
+	color: tomato;
+	text-align: center;
+}
+
+
+tr{
+
+	border: 20px solid white;
+	margin: 50px;
+	background-color: #333;	
+	margin-top: 50px;
+}
+
+
+
+img{
+	width: 100px;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+button{
+	width: 100px;
+	height: 50px;
+	background-color: #333;
+	color: white;
+	border-radius: 5px;
+}
+
+#login{
+	background-color: tomato;
+	width: 40%;
+	border-radius: 15px;
+	margin: auto;
+}
+
+#formLogin{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+#user{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#user input{
+	width: 90%;
+	height: 30px;
+	border-radius: 15px;
+}
+#mdpp{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+#mdpp input{
+	width: 90%;
+	height: 30px;
+	border-radius: 15px;
+}
+
+#conx{
+	width: 100px;
+	height: 50px;
+	background-color: #333;
+	color: white;
+	border-radius: 5px;
+	margin-left: 400px;
+	display: block;
+	margin: 0 auto;
+}
+
+.feedback {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	background: crimson;
+	border-radius: 1em;
+	margin: 1em auto;
+	max-width: 90%;
+	padding: .5em;
+}
+
+
+
+
+
+
